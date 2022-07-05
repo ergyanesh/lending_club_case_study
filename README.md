@@ -1,48 +1,43 @@
 # Project Name
-> Outline a brief description of your project.
+> A consumer finance company lends loans of different kinds to its urban customers. It has the data of its current and past customers, including those who have defaulted, and it wants to minimize credit loss by identifying the potential defaulters.
 
 
 ## Table of Contents
 * [General Info](#general-information)
 * [Technologies Used](#technologies-used)
 * [Conclusions](#conclusions)
-* [Acknowledgements](#acknowledgements)
 
 <!-- You can include any other section that is pertinent to your problem -->
 
 ## General Information
-- Provide general information about your project here.
-- What is the background of your project?
-- What is the business probem that your project is trying to solve?
-- What is the dataset that is being used?
-
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
-
-## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
+- The problem of the consumer finance company is that several customers have defaulted, and this leads to financial loss for the company.
+- To solve this problem, the identification of such customers who are likely to default should be done before lending them loans.
+- The aim is to identify patterns that indicate if a person is likely to default, which may be used for taking actions such as denying the loan, reducing the amount of loan, lending (to risky applicants) at a higher interest rate, etc.
+- Exploratory Data Analysis (EDA) is being used to find those variables/factors/patterns which can be an indicator of potential defaulters
+- The provided dataset contains 39000+ records and 100+ variables.
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 
 ## Technologies Used
-- library - version 1.0
-- library - version 2.0
-- library - version 3.0
+- Python - 3.9.7
+- Jupyter Notebook - 6.4.8
+- Pandas - 1.3.5
+- Numpy - 1.21.2
+- Matplotlib - 3.5.0
+- Seaborn - 0.11.2
 
 <!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
 
-## Acknowledgements
-Give credit here.
-- This project was inspired by...
-- References if any...
-- This project was based on [this tutorial](https://www.example.com).
+## Conclusions
+- Out of all the defaulters, the percentage of those who borrowed loan for debt consolidation is 49%, which is at least 4 times more than that of any other purposes.
+- Among all the defaulters, those who have 0 to 3 years of experience and more than 10 years of experience combinedly become 47% of the defaulters.
+- Number of verified defaulters, who have more than 10 years of experience and who have taken loan for debt consolidation, is at least three times more than any other employment length.
+
 
 
 ## Contact
-Created by [@githubusername] - feel free to contact me!
+Created by [@ergyanesh] - feel free to contact me!
 
 
 <!-- Optional -->
